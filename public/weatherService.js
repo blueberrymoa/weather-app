@@ -1,4 +1,4 @@
-const API_KEY = '1c52f6d871ec691036043bc5beab1be1';
+const API_KEY = 'Your_API_Key';
 const API_URL = 'https://api.openweathermap.org/data/2.5/weather?units=imperial';
 
 export const getWeather = async (location) => {
@@ -15,5 +15,5 @@ export const getWeather = async (location) => {
         }
         throw error;
     }
-    
+
 };
