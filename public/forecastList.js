@@ -7,7 +7,7 @@ export const createForecastList = (forecasts) => {
         forecastItem.className = 'forecast-item';
         
         const date = forecast.date;
-        const temperature = `${forecast.day.avgtemp_f}°F`;
+        const temperature = `${forecast.day.maxtemp_f}°F`;
         const description = forecast.day.condition.text;
         const iconUrl = forecast.day.condition.icon;
         
